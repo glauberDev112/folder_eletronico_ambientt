@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
     <title>Ambientt</title>
 </head>
 <body>
     <header class="center-title">
-        <h1>menu_interativo_ambientt</h1>
+        <h1>Menu interativo Ambientt</h1>
     </header>
     <div class="lim-container">
         <div class="accordion">
@@ -47,7 +49,7 @@
                     Modalidades de pagamento
                 </button>
             </div>
-            <div class="my_obj lim-obj accordion-collapse collapse show" id="target-accordion-2">
+            <div class="my_obj lim-obj accordion-collapse collapse" id="target-accordion-2">
                 <div class="center-title">
                     <h2>Modalidades de pagamento</h2>
                 </div>
@@ -76,26 +78,63 @@
                 <div class="center-title">
                     <h2>Nossos contatos</h2>
                 </div>
-                <ul>
-                    <li>
-                        <h3>Telefone</h3>
-                        <p>(+55) 11 99609-0432</p>
-                    </li>
-                    <li>
-                        <h3>Email</h3>
-                        <p>gm.ambientt@gmail.com</p>
-                    </li>
-                </ul>
-                <h3>Detalhes</h3>
-                <p>
-                    estamos abertos as 8:00 até as 16:00,
-                    as segundas ate as sextas.
-                </p>
+                <div class="sep-left">
+                    <ul>
+                        <li>
+                            <h3>Telefone</h3>
+                            <p>(+55) 11 99609-0432</p>
+                        </li>
+                        <li>
+                            <h3>Email</h3>
+                            <p>gm.ambientt@gmail.com</p>
+                        </li>
+                        <li>
+                            <h3>Site</h3>
+                            <a>https://www.ambientt.com.br/</a>
+                        </li>
+                    </ul>
+                    <h3>Detalhes</h3>
+                    <p>
+                        estamos abertos as 8:00 até as 16:00,
+                        as segundas ate as sextas.
+                    </p>
+                </div>
+
             </div>
         </div>
     </div>
     </div>
+    <div class="center-title">
+        <h2>Catalogo</h2>
+    </div>
+    <div class="center">
+        <div class="ci">
+            <div>
+                <img src="data:image/jpeg;base64,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" alt="">
+                <div class="center-title">
+                    <h4>Janela de correr</h4>
+                </div>
+            </div>
+            <div>
+                <img src="https://http2.mlstatic.com/D_NQ_NP_990359-MLB50946277190_072022-O.webp" alt="">
+                <div class="center-title">
+                    <h4>Telas contra mosquito</h4>
+                </div>
+
+            </div>
+            <div>
+                <img src="https://http2.mlstatic.com/D_NQ_NP_868917-MLB44049631564_112020-O.webp" alt="">
+                <div class="center-title">
+                    <h4>janelas acustca</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="main.js"></script>
 </body>
 </html>
