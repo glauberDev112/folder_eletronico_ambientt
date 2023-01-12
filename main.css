@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-show {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.header-show > * {
+    padding-right: 5px;
+}
+.my_obj p {
+    font-size: 1.12em;
+}
+.my_obj img {
+    max-width: 160px;
+}
+.my_obj table {
+    margin-top: 10px;
+    max-width: 97%;
+}
+.my_obj button {
+    padding-right: 100%;
+}
+.center-title {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.lim-obj {
+    max-width: 95vw;
+    max-height: 95vh;
+}
+.lim-container > div {
+    padding-left: 5%;
+    padding-top: 5px;
+    max-width: 95vw;
+    max-height: 95vh;
+}
