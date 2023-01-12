@@ -39,3 +39,13 @@
     max-width: 95vw;
     max-height: 95vh;
 }
+.sep-content > * {
+    padding-left: 5%;
+}
+.center-container {
+    padding: 5%;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
